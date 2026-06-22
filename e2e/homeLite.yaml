@@ -1,0 +1,135 @@
+appId: "${APP_ID}"
+name: "homeLiteTestFlow"
+# Suite: HomeLite
+# Consolidated test flow for HomeLite screen
+# Contains 13 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+# 1. Verify widget ASAppBar:HomeLite_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:HomeLite_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-HomeLite_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:HomeLite_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:HomeLite_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-HomeLite_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-HomeLite_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:HomeLite_Title_HiJohnDoe_Text is displayed on the screen: Verifies that the widget:HomeLite_Title_HiJohnDoe_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Title_HiJohnDoe_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:HomeLite_Title_HiJohnDoe_Text is displayed on the screen: Verifies that the label of widget:HomeLite_Title_HiJohnDoe_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Title_HiJohnDoe_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Title_HiJohnDoe_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASImage:HomeLite_Image_Settings_Image is displayed on the screen: Verifies that the widget:HomeLite_Image_Settings_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Image_Settings_Image"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:HomeLite_Background_ImageAsimage_Image is displayed on the screen: Verifies that the widget:HomeLite_Background_ImageAsimage_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Background_ImageAsimage_Image"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:HomeLite_Label_UserName_Text is displayed on the screen: Verifies that the widget:HomeLite_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:HomeLite_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:HomeLite_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:HomeLite_Label_UnlockExcitingFeaturesByCo_Text is displayed on the screen: Verifies that the widget:HomeLite_Label_UnlockExcitingFeaturesByCo_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Label_UnlockExcitingFeaturesByCo_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:HomeLite_Label_UnlockExcitingFeaturesByCo_Text is displayed on the screen: Verifies that the label of widget:HomeLite_Label_UnlockExcitingFeaturesByCo_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Label_UnlockExcitingFeaturesByCo_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "HomeLite_Label_UnlockExcitingFeaturesByCo_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASButton:HomeLite_Cta_Open_Button is displayed on the screen: Verifies that the widget:HomeLite_Cta_Open_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- waitForAnimationToEnd: {}
+# 12. Verify event:onPress using widget ASButton:HomeLite_Cta_Open_Button in screen HomeLite should navigate to EligibilityRequirement: Verify that triggering event:onPress using widget: HomeLite_Cta_Open_Button in screen HomeLite correctly navigates to the next screen EligibilityRequirement with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- waitForAnimationToEnd: {}
+# 13. Navigate back after verifying event:onPress from ASButton:HomeLite_Cta_Open_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:HomeLite_Cta_Open_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

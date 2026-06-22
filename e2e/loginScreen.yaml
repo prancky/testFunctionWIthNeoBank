@@ -1,0 +1,192 @@
+appId: "${APP_ID}"
+name: "loginScreenTestFlow"
+# Suite: LoginScreen
+# Consolidated test flow for LoginScreen screen
+# Contains 14 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+# 1. Verify widget ASAppBar:LoginScreen_AppBar is displayed on the screen: Verifies that the widget:LoginScreen_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-LoginScreen_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:LoginScreen_AppBar is displayed on the screen: Verifies that the label of widget:LoginScreen_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-LoginScreen_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-LoginScreen_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:LoginScreen_Image_LogoAsimage_Image is displayed on the screen: Verifies that the widget:LoginScreen_Image_LogoAsimage_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Image_LogoAsimage_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:LoginScreen_Label_WelcomeBack_Text is displayed on the screen: Verifies that the widget:LoginScreen_Label_WelcomeBack_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Label_WelcomeBack_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:LoginScreen_Label_WelcomeBack_Text is displayed on the screen: Verifies that the label of widget:LoginScreen_Label_WelcomeBack_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Label_WelcomeBack_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Label_WelcomeBack_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASTextField:LoginScreen_Input_UserName_Input is displayed on the screen: Verifies that the widget:LoginScreen_Input_UserName_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-LoginScreen_Input_UserName_Input"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASTextField:LoginScreen_Input_UserName_Input functionalities: Verifies that input widget:LoginScreen_Input_UserName_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-LoginScreen_Input_UserName_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-LoginScreen_Input_UserName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-LoginScreen_Input_UserName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-LoginScreen_Input_UserName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-LoginScreen_Input_UserName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-LoginScreen_Input_UserName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-LoginScreen_Input_UserName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-LoginScreen_Input_UserName_Input"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASPasswordTextField:LoginScreen_Input_UserName_Input_2 is displayed on the screen: Verifies that the widget:LoginScreen_Input_UserName_Input_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-LoginScreen_Input_UserName_Input_2"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASPasswordTextField:LoginScreen_Input_UserName_Input_2 functionalities: Verifies that input widget:LoginScreen_Input_UserName_Input_2 accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-LoginScreen_Input_UserName_Input_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-LoginScreen_Input_UserName_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-LoginScreen_Input_UserName_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-LoginScreen_Input_UserName_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-LoginScreen_Input_UserName_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-LoginScreen_Input_UserName_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-LoginScreen_Input_UserName_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-LoginScreen_Input_UserName_Input_2"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:LoginScreen_Label_TroubleLoggingIn_Text is displayed on the screen: Verifies that the widget:LoginScreen_Label_TroubleLoggingIn_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Label_TroubleLoggingIn_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:LoginScreen_Label_TroubleLoggingIn_Text is displayed on the screen: Verifies that the label of widget:LoginScreen_Label_TroubleLoggingIn_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Label_TroubleLoggingIn_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "LoginScreen_Label_TroubleLoggingIn_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASButton:LoginScreen_Cta_Login_Button is displayed on the screen: Verifies that the widget:LoginScreen_Cta_Login_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- waitForAnimationToEnd: {}
+# 13. Verify event:onPress using widget ASButton:LoginScreen_Cta_Login_Button in screen LoginScreen should navigate to HomeLite: Verify that triggering event:onPress using widget: LoginScreen_Cta_Login_Button in screen LoginScreen correctly navigates to the next screen HomeLite with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- waitForAnimationToEnd: {}
+# 14. Navigate back after verifying event:onPress from ASButton:LoginScreen_Cta_Login_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:LoginScreen_Cta_Login_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

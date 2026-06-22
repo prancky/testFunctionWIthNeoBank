@@ -1,0 +1,297 @@
+appId: "${APP_ID}"
+name: "marketingPreferenceTestFlow"
+# Suite: MarketingPreference
+# Consolidated test flow for MarketingPreference screen
+# Contains 17 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aa76eab4-8026-480a-ba2a-91e5336db92c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "2fa9b715-f553-440b-bf7d-519f8a12e053"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "c6323571-23da-4d1c-b075-a967be93ca2e"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4c82546c-8aaf-4f78-8200-069e6ed2a930"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "cd9257f4-7a06-4f8c-8188-56407a5f55a8"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "9c49d4f7-740d-4930-9602-4131b3e63c76"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationEmlpoyement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationEmlpoyement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "51dc64b4-0c2b-49e6-b6bd-9dadeb1060f9"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationPurpose_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationPurpose_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "d6aedeed-3578-4c57-85e1-7fc3294dd17c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ReviewAndConfirmDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ReviewAndConfirmDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "545d7da9-c388-4cc7-b33f-894cd2b11370"
+    optional: true
+# 1. Verify widget ASAppBar:MarketingPreference_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the widget:MarketingPreference_AppBar_AppBarAsappHeader_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-MarketingPreference_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:MarketingPreference_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the label of widget:MarketingPreference_AppBar_AppBarAsappHeader_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-MarketingPreference_AppBar_AppBarAsappHeader_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-MarketingPreference_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:MarketingPreference_Label_MarketingPreferences_Text is displayed on the screen: Verifies that the widget:MarketingPreference_Label_MarketingPreferences_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Label_MarketingPreferences_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:MarketingPreference_Label_MarketingPreferences_Text is displayed on the screen: Verifies that the label of widget:MarketingPreference_Label_MarketingPreferences_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Label_MarketingPreferences_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Label_MarketingPreferences_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASProgressBar:MarketingPreference_Container_ProgressBarAsprogr_ProgressBar is displayed on the screen: Verifies that the widget:MarketingPreference_Container_ProgressBarAsprogr_ProgressBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Container_ProgressBarAsprogr_ProgressBar"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:MarketingPreference_Label_LetUsKnowHowToReachYou_Text is displayed on the screen: Verifies that the widget:MarketingPreference_Label_LetUsKnowHowToReachYou_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Label_LetUsKnowHowToReachYou_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:MarketingPreference_Label_LetUsKnowHowToReachYou_Text is displayed on the screen: Verifies that the label of widget:MarketingPreference_Label_LetUsKnowHowToReachYou_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Label_LetUsKnowHowToReachYou_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Label_LetUsKnowHowToReachYou_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:MarketingPreference_Body_Text is displayed on the screen: Verifies that the widget:MarketingPreference_Body_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Body_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:MarketingPreference_Body_Text is displayed on the screen: Verifies that the label of widget:MarketingPreference_Body_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Body_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Body_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASImage:mail is displayed on the screen: Verifies that the widget:mail renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "mail"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:iAm18YearsOldAndAbove is displayed on the screen: Verifies that the widget:iAm18YearsOldAndAbove renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "iAm18YearsOldAndAbove"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:iAm18YearsOldAndAbove is displayed on the screen: Verifies that the label of widget:iAm18YearsOldAndAbove appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "iAm18YearsOldAndAbove"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "iAm18YearsOldAndAbove"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASSwitch:MarketingPreference_Toggle_SwitchAsswitch_Switch is displayed on the screen: Verifies that the widget:MarketingPreference_Toggle_SwitchAsswitch_Switch renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Toggle_SwitchAsswitch_Switch"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASSwitch:MarketingPreference_Toggle_SwitchAsswitch_Switch functionalities: Verifies that tapping button widget:MarketingPreference_Toggle_SwitchAsswitch_Switch works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Toggle_SwitchAsswitch_Switch"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MarketingPreference_Toggle_SwitchAsswitch_Switch"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASButton:MarketingPreference_Cta_Continue_Button is displayed on the screen: Verifies that the widget:MarketingPreference_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 16. Verify event:onPress using widget ASButton:MarketingPreference_Cta_Continue_Button in screen MarketingPreference should navigate to AMP: Verify that triggering event:onPress using widget: MarketingPreference_Cta_Continue_Button in screen MarketingPreference correctly navigates to the next screen AMP with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "74a8ae30-c899-48e1-84ce-4a415f4e8998"
+    optional: true
+- waitForAnimationToEnd: {}
+# 17. Navigate back after verifying event:onPress from ASButton:MarketingPreference_Cta_Continue_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:MarketingPreference_Cta_Continue_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

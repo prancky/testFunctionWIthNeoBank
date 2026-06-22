@@ -1,0 +1,325 @@
+appId: "${APP_ID}"
+name: "verificationDetailsTestFlow"
+# Suite: VerificationDetails
+# Consolidated test flow for VerificationDetails screen
+# Contains 23 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aa76eab4-8026-480a-ba2a-91e5336db92c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "2fa9b715-f553-440b-bf7d-519f8a12e053"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "c6323571-23da-4d1c-b075-a967be93ca2e"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4c82546c-8aaf-4f78-8200-069e6ed2a930"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "cd9257f4-7a06-4f8c-8188-56407a5f55a8"
+    optional: true
+# 1. Verify widget ASAppBar:VerificationDetails_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the widget:VerificationDetails_AppBar_AppBarAsappHeader_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-VerificationDetails_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:VerificationDetails_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the label of widget:VerificationDetails_AppBar_AppBarAsappHeader_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-VerificationDetails_AppBar_AppBarAsappHeader_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-VerificationDetails_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:VerificationDetails_Label_AboutYou_Text is displayed on the screen: Verifies that the widget:VerificationDetails_Label_AboutYou_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_AboutYou_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:VerificationDetails_Label_AboutYou_Text is displayed on the screen: Verifies that the label of widget:VerificationDetails_Label_AboutYou_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_AboutYou_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_AboutYou_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASProgressBar:VerificationDetails_Container_ProgressBarAsprogr_ProgressBar is displayed on the screen: Verifies that the widget:VerificationDetails_Container_ProgressBarAsprogr_ProgressBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Container_ProgressBarAsprogr_ProgressBar"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:VerificationDetails_Label_PersonalDetails_Text is displayed on the screen: Verifies that the widget:VerificationDetails_Label_PersonalDetails_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_PersonalDetails_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:VerificationDetails_Label_PersonalDetails_Text is displayed on the screen: Verifies that the label of widget:VerificationDetails_Label_PersonalDetails_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_PersonalDetails_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_PersonalDetails_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:VerificationDetails_Label_TellUsMoreAboutYou_Text is displayed on the screen: Verifies that the widget:VerificationDetails_Label_TellUsMoreAboutYou_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_TellUsMoreAboutYou_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:VerificationDetails_Label_TellUsMoreAboutYou_Text is displayed on the screen: Verifies that the label of widget:VerificationDetails_Label_TellUsMoreAboutYou_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_TellUsMoreAboutYou_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_TellUsMoreAboutYou_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDown is displayed on the screen: Verifies that the widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDown renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDown"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDown functionalities: Verifies that dropdown widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDown opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDown"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDown"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDown"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2 is displayed on the screen: Verifies that the widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2 functionalities: Verifies that dropdown widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2 opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_2"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3 is displayed on the screen: Verifies that the widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3 functionalities: Verifies that dropdown widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3 opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_3"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4 is displayed on the screen: Verifies that the widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASDropDown:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4 functionalities: Verifies that dropdown widget:VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4 opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-VerificationDetails_Container_DropdownFieldAsdropDo_DropDo_4"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASImage:VerificationDetails_Image_GppGood_Image is displayed on the screen: Verifies that the widget:VerificationDetails_Image_GppGood_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Image_GppGood_Image"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:VerificationDetails_Label_YourDataIsProtectedAccord_Text is displayed on the screen: Verifies that the widget:VerificationDetails_Label_YourDataIsProtectedAccord_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_YourDataIsProtectedAccord_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:VerificationDetails_Label_YourDataIsProtectedAccord_Text is displayed on the screen: Verifies that the label of widget:VerificationDetails_Label_YourDataIsProtectedAccord_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_YourDataIsProtectedAccord_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationDetails_Label_YourDataIsProtectedAccord_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASButton:VerificationDetails_Cta_Continue_Button is displayed on the screen: Verifies that the widget:VerificationDetails_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 22. Verify event:onPress using widget ASButton:VerificationDetails_Cta_Continue_Button in screen VerificationDetails should navigate to VerificationEmlpoyement: Verify that triggering event:onPress using widget: VerificationDetails_Cta_Continue_Button in screen VerificationDetails correctly navigates to the next screen VerificationEmlpoyement with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "9c49d4f7-740d-4930-9602-4131b3e63c76"
+    optional: true
+- waitForAnimationToEnd: {}
+# 23. Navigate back after verifying event:onPress from ASButton:VerificationDetails_Cta_Continue_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:VerificationDetails_Cta_Continue_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

@@ -1,0 +1,247 @@
+appId: "${APP_ID}"
+name: "dataClasificationOpenAccountTestFlow"
+# Suite: DataClasificationOpenAccount
+# Consolidated test flow for DataClasificationOpenAccount screen
+# Contains 24 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aa76eab4-8026-480a-ba2a-91e5336db92c"
+    optional: true
+# 1. Verify widget ASAppBar:DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-DataClasificationOpenAccount_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_OpenYourAccountIn8Mi_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_HereSwhatYouNeedToDo_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASImage:DataClasificationOpenAccount_Image_Badge_Image is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Image_Badge_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Image_Badge_Image"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:DataClasificationOpenAccount_Label_VerifyYourIdentity_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_VerifyYourIdentity_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_VerifyYourIdentity_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:DataClasificationOpenAccount_Label_VerifyYourIdentity_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_VerifyYourIdentity_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_VerifyYourIdentity_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_VerifyYourIdentity_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_CheckingToMakeSureYo_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASImage:DataClasificationOpenAccount_Image_BusinessCenter_Image is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Image_BusinessCenter_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Image_BusinessCenter_Image"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:DataClasificationOpenAccount_Label_AboutYou_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_AboutYou_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_AboutYou_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:DataClasificationOpenAccount_Label_AboutYou_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_AboutYou_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_AboutYou_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_AboutYou_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:DataClasificationOpenAccount_Body_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Body_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Body_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:DataClasificationOpenAccount_Body_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Body_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Body_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Body_Text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASImage:DataClasificationOpenAccount_Image_AtmCards_Image is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Image_AtmCards_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Image_AtmCards_Image"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:DataClasificationOpenAccount_Label_YourAccount_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_YourAccount_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_YourAccount_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:DataClasificationOpenAccount_Label_YourAccount_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_YourAccount_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_YourAccount_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_YourAccount_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text is displayed on the screen: Verifies that the label of widget:DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "DataClasificationOpenAccount_Label_HowYouPlanToUseYourD_Text"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASButton:DataClasificationOpenAccount_Cta_LetSstart_Button is displayed on the screen: Verifies that the widget:DataClasificationOpenAccount_Cta_LetSstart_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- waitForAnimationToEnd: {}
+# 23. Verify event:onPress using widget ASButton:DataClasificationOpenAccount_Cta_LetSstart_Button in screen DataClasificationOpenAccount should navigate to IdentityIDCardPhoto: Verify that triggering event:onPress using widget: DataClasificationOpenAccount_Cta_LetSstart_Button in screen DataClasificationOpenAccount correctly navigates to the next screen IdentityIDCardPhoto with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "2fa9b715-f553-440b-bf7d-519f8a12e053"
+    optional: true
+- waitForAnimationToEnd: {}
+# 24. Navigate back after verifying event:onPress from ASButton:DataClasificationOpenAccount_Cta_LetSstart_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:DataClasificationOpenAccount_Cta_LetSstart_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

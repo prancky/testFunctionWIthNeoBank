@@ -1,0 +1,99 @@
+appId: "${APP_ID}"
+name: "introductionFirstScreenTestFlow"
+# Suite: IntroductionFirstScreen
+# Consolidated test flow for IntroductionFirstScreen screen
+# Contains 12 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:IntroductionFirstScreen_AppBar_Header_AppBar is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_AppBar_Header_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-IntroductionFirstScreen_AppBar_Header_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:IntroductionFirstScreen_AppBar_Header_AppBar is displayed on the screen: Verifies that the label of widget:IntroductionFirstScreen_AppBar_Header_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-IntroductionFirstScreen_AppBar_Header_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-IntroductionFirstScreen_AppBar_Header_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:IntroductionFirstScreen_Image_Settings_Image is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_Image_Settings_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Image_Settings_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:IntroductionFirstScreen_Label_UserName_Text is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:IntroductionFirstScreen_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:IntroductionFirstScreen_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text is displayed on the screen: Verifies that the label of widget:IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Label_EasyTransparentAndSecure_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASImage:IntroductionFirstScreen_Background_ImageAsimage_Image is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_Background_ImageAsimage_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IntroductionFirstScreen_Background_ImageAsimage_Image"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASButton:IntroductionFirstScreen_Cta_Login_Button is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_Cta_Login_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- waitForAnimationToEnd: {}
+# 10. Verify event:onPress using widget ASButton:IntroductionFirstScreen_Cta_Login_Button in screen IntroductionFirstScreen should navigate to LoginScreen: Verify that triggering event:onPress using widget: IntroductionFirstScreen_Cta_Login_Button in screen IntroductionFirstScreen correctly navigates to the next screen LoginScreen with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- waitForAnimationToEnd: {}
+# 11. Navigate back after verifying event:onPress from ASButton:IntroductionFirstScreen_Cta_Login_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:IntroductionFirstScreen_Cta_Login_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASButton:IntroductionFirstScreen_Cta_Register_Button is displayed on the screen: Verifies that the widget:IntroductionFirstScreen_Cta_Register_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Register_Button"
+- waitForAnimationToEnd: {}

@@ -1,0 +1,131 @@
+appId: ${APP_ID}
+name: Master Test Suite
+# Generated Consolidated Test Suite Information:
+# Each screen has a single consolidated flow file containing all its test cases
+# Suite: EligibilityRequirement
+# Consolidated flow file: eligibilityRequirement.yaml
+# Contains 19 test case(s):
+
+# Suite: AMP
+# Consolidated flow file: aMP.yaml
+# Contains 13 test case(s):
+
+# Suite: HomeLiteProcessing
+# Consolidated flow file: homeLiteProcessing.yaml
+# Contains 14 test case(s):
+
+# Suite: LiteHomeVerifying
+# Consolidated flow file: liteHomeVerifying.yaml
+# Contains 14 test case(s):
+
+# Suite: HomeLiteMoreInfo
+# Consolidated flow file: homeLiteMoreInfo.yaml
+# Contains 14 test case(s):
+
+# Suite: VerificationVerified
+# Consolidated flow file: verificationVerified.yaml
+# Contains 14 test case(s):
+
+# Suite: HomeLite
+# Consolidated flow file: homeLite.yaml
+# Contains 14 test case(s):
+
+# Suite: IntroductionFirstScreen
+# Consolidated flow file: introductionFirstScreen.yaml
+# Contains 14 test case(s):
+
+# Suite: DataClasificationOpenAccount
+# Consolidated flow file: dataClasificationOpenAccount.yaml
+# Contains 25 test case(s):
+
+# Suite: IdentityIDCardPhoto
+# Consolidated flow file: identityIDCardPhoto.yaml
+# Contains 21 test case(s):
+
+# Suite: VerificationMoreInfo
+# Consolidated flow file: verificationMoreInfo.yaml
+# Contains 22 test case(s):
+
+# Suite: LoginScreen
+# Consolidated flow file: loginScreen.yaml
+# Contains 15 test case(s):
+
+# Suite: VerificationInitialTransfer
+# Consolidated flow file: verificationInitialTransfer.yaml
+# Contains 28 test case(s):
+
+# Suite: VerificationAddress
+# Consolidated flow file: verificationAddress.yaml
+# Contains 26 test case(s):
+
+# Suite: VerificationSelfie
+# Consolidated flow file: verificationSelfie.yaml
+# Contains 27 test case(s):
+
+# Suite: VerificationDetails
+# Consolidated flow file: verificationDetails.yaml
+# Contains 24 test case(s):
+
+# Suite: VerificationEmlpoyement
+# Consolidated flow file: verificationEmlpoyement.yaml
+# Contains 26 test case(s):
+
+# Suite: MarketingPreference
+# Consolidated flow file: marketingPreference.yaml
+# Contains 18 test case(s):
+
+# Suite: ReviewAndConfirmDetails
+# Consolidated flow file: reviewAndConfirmDetails.yaml
+# Contains 59 test case(s):
+
+# Suite: VerificationPurpose
+# Consolidated flow file: verificationPurpose.yaml
+# Contains 35 test case(s):
+
+# Suite: Home
+# Consolidated flow file: home.yaml
+# Contains 49 test case(s):
+
+---
+- runFlow:
+    file: eligibilityRequirement.yaml
+- runFlow:
+    file: aMP.yaml
+- runFlow:
+    file: homeLiteProcessing.yaml
+- runFlow:
+    file: liteHomeVerifying.yaml
+- runFlow:
+    file: homeLiteMoreInfo.yaml
+- runFlow:
+    file: verificationVerified.yaml
+- runFlow:
+    file: homeLite.yaml
+- runFlow:
+    file: introductionFirstScreen.yaml
+- runFlow:
+    file: dataClasificationOpenAccount.yaml
+- runFlow:
+    file: identityIDCardPhoto.yaml
+- runFlow:
+    file: verificationMoreInfo.yaml
+- runFlow:
+    file: loginScreen.yaml
+- runFlow:
+    file: verificationInitialTransfer.yaml
+- runFlow:
+    file: verificationAddress.yaml
+- runFlow:
+    file: verificationSelfie.yaml
+- runFlow:
+    file: verificationDetails.yaml
+- runFlow:
+    file: verificationEmlpoyement.yaml
+- runFlow:
+    file: marketingPreference.yaml
+- runFlow:
+    file: reviewAndConfirmDetails.yaml
+- runFlow:
+    file: verificationPurpose.yaml
+- runFlow:
+    file: home.yaml

@@ -1,0 +1,518 @@
+appId: "${APP_ID}"
+name: "verificationInitialTransferTestFlow"
+# Suite: VerificationInitialTransfer
+# Consolidated test flow for VerificationInitialTransfer screen
+# Contains 26 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aa76eab4-8026-480a-ba2a-91e5336db92c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "2fa9b715-f553-440b-bf7d-519f8a12e053"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "c6323571-23da-4d1c-b075-a967be93ca2e"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4c82546c-8aaf-4f78-8200-069e6ed2a930"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "cd9257f4-7a06-4f8c-8188-56407a5f55a8"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "9c49d4f7-740d-4930-9602-4131b3e63c76"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationEmlpoyement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationEmlpoyement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "51dc64b4-0c2b-49e6-b6bd-9dadeb1060f9"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationPurpose_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationPurpose_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "d6aedeed-3578-4c57-85e1-7fc3294dd17c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ReviewAndConfirmDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ReviewAndConfirmDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "545d7da9-c388-4cc7-b33f-894cd2b11370"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "74a8ae30-c899-48e1-84ce-4a415f4e8998"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Amp_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Amp_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "fb7553ae-71d3-498a-8002-662b82483031"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteProcessing_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteProcessing_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "bcc590cf-19c2-40be-8e4b-98810b6af202"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "042ccecd-a3dc-47ba-b9f4-f0ccf3997c7b"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "9354e3dd-261a-47a6-9592-e8c4fae4fa5d"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LiteHomeVerifying_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LiteHomeVerifying_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "08f013bb-1552-4ee1-8d11-351fe5a2f6d5"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationVerified_Cta_TransferNow_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationVerified_Cta_TransferNow_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "cfb2b0bd-9132-4754-8f2c-d23c523c9691"
+    optional: true
+# 1. Verify widget ASAppBar:VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-VerificationInitialTransfer_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_MakeAnInitialTransfer_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:VerificationInitialTransfer_Body_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Body_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Body_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:VerificationInitialTransfer_Body_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Body_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Body_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Body_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASTextField:VerificationInitialTransfer_Input_BankName_Input is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Input_BankName_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_BankName_Input"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASTextField:VerificationInitialTransfer_Input_BankName_Input functionalities: Verifies that input widget:VerificationInitialTransfer_Input_BankName_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_BankName_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_BankName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-VerificationInitialTransfer_Input_BankName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_BankName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-VerificationInitialTransfer_Input_BankName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_BankName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-VerificationInitialTransfer_Input_BankName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_BankName_Input"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASTextField:VerificationInitialTransfer_Input_MyDepositAccountNumb_Input is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Input_MyDepositAccountNumb_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASTextField:VerificationInitialTransfer_Input_MyDepositAccountNumb_Input functionalities: Verifies that input widget:VerificationInitialTransfer_Input_MyDepositAccountNumb_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-VerificationInitialTransfer_Input_MyDepositAccountNumb_Input"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:VerificationInitialTransfer_Label_MinimumInitialTransfe_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Label_MinimumInitialTransfe_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_MinimumInitialTransfe_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:VerificationInitialTransfer_Label_MinimumInitialTransfe_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Label_MinimumInitialTransfe_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_MinimumInitialTransfe_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_MinimumInitialTransfe_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:VerificationInitialTransfer_Label_Sgd_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Label_Sgd_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_Sgd_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:VerificationInitialTransfer_Label_Sgd_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Label_Sgd_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_Sgd_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_Sgd_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:VerificationInitialTransfer_Label_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:VerificationInitialTransfer_Label_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_Text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASButton:VerificationInitialTransfer_Cta_InstantTransferViaPay_Button is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Cta_InstantTransferViaPay_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationInitialTransfer_Cta_InstantTransferViaPay_Button"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASImage:VerificationInitialTransfer_Image_Verified_Image is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Image_Verified_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Image_Verified_Image"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:VerificationInitialTransfer_Label_FromYourNonJointBankA_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Label_FromYourNonJointBankA_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_FromYourNonJointBankA_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:VerificationInitialTransfer_Label_FromYourNonJointBankA_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Label_FromYourNonJointBankA_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_FromYourNonJointBankA_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_FromYourNonJointBankA_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASImage:VerificationInitialTransfer_Image_Verified_Image_2 is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Image_Verified_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Image_Verified_Image_2"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text is displayed on the screen: Verifies that the label of widget:VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "VerificationInitialTransfer_Label_AminimumBalanceOfSgd2_Text"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASButton:VerificationInitialTransfer_Cta_Done_Button is displayed on the screen: Verifies that the widget:VerificationInitialTransfer_Cta_Done_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationInitialTransfer_Cta_Done_Button"
+- waitForAnimationToEnd: {}
+# 25. Verify event:onPress using widget ASButton:VerificationInitialTransfer_Cta_Done_Button in screen VerificationInitialTransfer should navigate to Home: Verify that triggering event:onPress using widget: VerificationInitialTransfer_Cta_Done_Button in screen VerificationInitialTransfer correctly navigates to the next screen Home with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationInitialTransfer_Cta_Done_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationInitialTransfer_Cta_Done_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "3fc03036-ef8d-4428-9c4b-48f09dd3a127"
+    optional: true
+- waitForAnimationToEnd: {}
+# 26. Navigate back after verifying event:onPress from ASButton:VerificationInitialTransfer_Cta_Done_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:VerificationInitialTransfer_Cta_Done_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

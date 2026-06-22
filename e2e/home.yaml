@@ -1,0 +1,670 @@
+appId: "${APP_ID}"
+name: "homeTestFlow"
+# Suite: Home
+# Consolidated test flow for Home screen
+# Contains 49 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aa76eab4-8026-480a-ba2a-91e5336db92c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "2fa9b715-f553-440b-bf7d-519f8a12e053"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "c6323571-23da-4d1c-b075-a967be93ca2e"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationAddress_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "4c82546c-8aaf-4f78-8200-069e6ed2a930"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationSelfie_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "cd9257f4-7a06-4f8c-8188-56407a5f55a8"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "9c49d4f7-740d-4930-9602-4131b3e63c76"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationEmlpoyement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationEmlpoyement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "51dc64b4-0c2b-49e6-b6bd-9dadeb1060f9"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationPurpose_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationPurpose_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "d6aedeed-3578-4c57-85e1-7fc3294dd17c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ReviewAndConfirmDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ReviewAndConfirmDetails_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "545d7da9-c388-4cc7-b33f-894cd2b11370"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MarketingPreference_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "74a8ae30-c899-48e1-84ce-4a415f4e8998"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Amp_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Amp_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "fb7553ae-71d3-498a-8002-662b82483031"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteProcessing_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteProcessing_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "bcc590cf-19c2-40be-8e4b-98810b6af202"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLiteMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "042ccecd-a3dc-47ba-b9f4-f0ccf3997c7b"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationMoreInfo_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "9354e3dd-261a-47a6-9592-e8c4fae4fa5d"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LiteHomeVerifying_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LiteHomeVerifying_Cta_CheckStatus_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "08f013bb-1552-4ee1-8d11-351fe5a2f6d5"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationVerified_Cta_TransferNow_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationVerified_Cta_TransferNow_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "cfb2b0bd-9132-4754-8f2c-d23c523c9691"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationInitialTransfer_Cta_Done_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-VerificationInitialTransfer_Cta_Done_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "3fc03036-ef8d-4428-9c4b-48f09dd3a127"
+    optional: true
+# 1. Verify widget ASButton:Home_Cta_Action_Button is displayed on the screen: Verifies that the widget:Home_Cta_Action_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASButton:Home_Cta_Action_Button functionalities: Verifies that tapping button widget:Home_Cta_Action_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Action_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:Home_Label_HiJohnDoe_Text is displayed on the screen: Verifies that the widget:Home_Label_HiJohnDoe_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_HiJohnDoe_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:Home_Label_HiJohnDoe_Text is displayed on the screen: Verifies that the label of widget:Home_Label_HiJohnDoe_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_HiJohnDoe_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_HiJohnDoe_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASIconButton:Home_Icon_IconButtonAsiconButton_Icon is displayed on the screen: Verifies that the widget:Home_Icon_IconButtonAsiconButton_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-Home_Icon_IconButtonAsiconButton_Icon"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASIconButton:Home_Icon_IconButtonAsiconButton_Icon functionalities: Verifies that tapping button widget:Home_Icon_IconButtonAsiconButton_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-Home_Icon_IconButtonAsiconButton_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-Home_Icon_IconButtonAsiconButton_Icon"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASTextField:Home_Input_ActivateYourVirtualCardNow_Input is displayed on the screen: Verifies that the widget:Home_Input_ActivateYourVirtualCardNow_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Home_Input_ActivateYourVirtualCardNow_Input"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASTextField:Home_Input_ActivateYourVirtualCardNow_Input functionalities: Verifies that input widget:Home_Input_ActivateYourVirtualCardNow_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Home_Input_ActivateYourVirtualCardNow_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Home_Input_ActivateYourVirtualCardNow_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-Home_Input_ActivateYourVirtualCardNow_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Home_Input_ActivateYourVirtualCardNow_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-Home_Input_ActivateYourVirtualCardNow_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Home_Input_ActivateYourVirtualCardNow_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-Home_Input_ActivateYourVirtualCardNow_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Home_Input_ActivateYourVirtualCardNow_Input"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASImage:Home_Image_LogoAsimage_Image is displayed on the screen: Verifies that the widget:Home_Image_LogoAsimage_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image_LogoAsimage_Image"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASImage:Home_Image_Visibility_Image is displayed on the screen: Verifies that the widget:Home_Image_Visibility_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image_Visibility_Image"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:Home_Label_TotalBalance_Text is displayed on the screen: Verifies that the widget:Home_Label_TotalBalance_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_TotalBalance_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:Home_Label_TotalBalance_Text is displayed on the screen: Verifies that the label of widget:Home_Label_TotalBalance_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_TotalBalance_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_TotalBalance_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:Home_Label_Sgd_Text is displayed on the screen: Verifies that the widget:Home_Label_Sgd_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Sgd_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:Home_Label_Sgd_Text is displayed on the screen: Verifies that the label of widget:Home_Label_Sgd_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Sgd_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Sgd_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:Home_Label_Text is displayed on the screen: Verifies that the widget:Home_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:Home_Label_Text is displayed on the screen: Verifies that the label of widget:Home_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASButton:Home_Cta_View_Button is displayed on the screen: Verifies that the widget:Home_Cta_View_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_View_Button"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASButton:Home_Cta_View_Button functionalities: Verifies that tapping button widget:Home_Cta_View_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_View_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_View_Button"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASImage:Home_Background_Lines_Image is displayed on the screen: Verifies that the widget:Home_Background_Lines_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Background_Lines_Image"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:Home_Label_MyPoints_Text is displayed on the screen: Verifies that the widget:Home_Label_MyPoints_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_MyPoints_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:Home_Label_MyPoints_Text is displayed on the screen: Verifies that the label of widget:Home_Label_MyPoints_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_MyPoints_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_MyPoints_Text"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASImage:Home_Image_RatingImageAsimage_Image is displayed on the screen: Verifies that the widget:Home_Image_RatingImageAsimage_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image_RatingImageAsimage_Image"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:Home_Label_Rm_Text is displayed on the screen: Verifies that the widget:Home_Label_Rm_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Rm_Text"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:Home_Label_Rm_Text is displayed on the screen: Verifies that the label of widget:Home_Label_Rm_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Rm_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Rm_Text"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:Home_Label_Text_2 is displayed on the screen: Verifies that the widget:Home_Label_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Text_2"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:Home_Label_Text_2 is displayed on the screen: Verifies that the label of widget:Home_Label_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Text_2"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASImage:Home_Image is displayed on the screen: Verifies that the widget:Home_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:Home_Label_Id2022030219921120_Text is displayed on the screen: Verifies that the widget:Home_Label_Id2022030219921120_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Id2022030219921120_Text"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:Home_Label_Id2022030219921120_Text is displayed on the screen: Verifies that the label of widget:Home_Label_Id2022030219921120_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Id2022030219921120_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Id2022030219921120_Text"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:Home_Label_Expiry1026_Text is displayed on the screen: Verifies that the widget:Home_Label_Expiry1026_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Expiry1026_Text"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:Home_Label_Expiry1026_Text is displayed on the screen: Verifies that the label of widget:Home_Label_Expiry1026_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Expiry1026_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_Expiry1026_Text"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASButton:Home_Cta_Action_Button_2 is displayed on the screen: Verifies that the widget:Home_Cta_Action_Button_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Action_Button_2"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASButton:Home_Cta_Action_Button_2 functionalities: Verifies that tapping button widget:Home_Cta_Action_Button_2 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Action_Button_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Action_Button_2"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASImage:Home_Image_ActionIcons_Image is displayed on the screen: Verifies that the widget:Home_Image_ActionIcons_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image_ActionIcons_Image"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASText:Home_Label_UserName_Text is displayed on the screen: Verifies that the widget:Home_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:Home_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:Home_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASImage:Home_Image_ActionIcons_Image_2 is displayed on the screen: Verifies that the widget:Home_Image_ActionIcons_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image_ActionIcons_Image_2"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASText:Home_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:Home_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASText:Home_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:Home_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASImage:Home_Image_ActionIcons_Image_3 is displayed on the screen: Verifies that the widget:Home_Image_ActionIcons_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Image_ActionIcons_Image_3"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASText:Home_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:Home_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASText:Home_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:Home_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Home_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASButton:Home_Cta_Finance_Button is displayed on the screen: Verifies that the widget:Home_Cta_Finance_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Finance_Button"
+- waitForAnimationToEnd: {}
+# 44. Verify widget ASButton:Home_Cta_Finance_Button functionalities: Verifies that tapping button widget:Home_Cta_Finance_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Finance_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Home_Cta_Finance_Button"
+- waitForAnimationToEnd: {}
+# 45. Verify widget ASText:title22 is displayed on the screen: Verifies that the widget:title22 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title22"
+- waitForAnimationToEnd: {}
+# 46. Verify widget ASText:title22 is displayed on the screen: Verifies that the label of widget:title22 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title22"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title22"
+- waitForAnimationToEnd: {}
+# 47. Verify widget ASText:description is displayed on the screen: Verifies that the widget:description renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "description"
+- waitForAnimationToEnd: {}
+# 48. Verify widget ASText:description is displayed on the screen: Verifies that the label of widget:description appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "description"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "description"
+- waitForAnimationToEnd: {}
+# 49. Verify widget ASImage:financeServicesIllustrations is displayed on the screen: Verifies that the widget:financeServicesIllustrations renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "financeServicesIllustrations"

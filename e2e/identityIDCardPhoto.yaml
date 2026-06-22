@@ -1,0 +1,228 @@
+appId: "${APP_ID}"
+name: "identityIDCardPhotoTestFlow"
+# Suite: IdentityIDCardPhoto
+# Consolidated test flow for IdentityIDCardPhoto screen
+# Contains 20 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IntroductionFirstScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "00571aad-bed9-46f5-991e-94d0805872a7"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-LoginScreen_Cta_Login_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "68526003-8aad-4122-8991-06771f332513"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-HomeLite_Cta_Open_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "a2d65a31-9542-4b7e-9228-c730e6669899"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-EligibilityRequirement_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aa76eab4-8026-480a-ba2a-91e5336db92c"
+    optional: true
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-DataClasificationOpenAccount_Cta_LetSstart_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "2fa9b715-f553-440b-bf7d-519f8a12e053"
+    optional: true
+# 1. Verify widget ASAppBar:IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-IdentityIdcardPhoto_AppBar_AppBarAsappHeader_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:IdentityIdcardPhoto_Label_VerifyYourIdentity_Text is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Label_VerifyYourIdentity_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_VerifyYourIdentity_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:IdentityIdcardPhoto_Label_VerifyYourIdentity_Text is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_Label_VerifyYourIdentity_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_VerifyYourIdentity_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_VerifyYourIdentity_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASProgressBar:IdentityIdcardPhoto_Container_ProgressBarAsprogr_ProgressBar is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Container_ProgressBarAsprogr_ProgressBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Container_ProgressBarAsprogr_ProgressBar"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_PhotoOfYourIdCard_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_PhotoOfYourNricOrFinDocu_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASImage:IdentityIdcardPhoto_Image_Badge_Image is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Image_Badge_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Image_Badge_Image"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_ClearPhotoOfYourIdCard_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_EnsureDetailsAreFocusedAnd_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASImage:IdentityIdcardPhoto_Image_GppGood_Image is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Image_GppGood_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Image_GppGood_Image"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text is displayed on the screen: Verifies that the label of widget:IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "IdentityIdcardPhoto_Label_YourDataIsProtectedAccord_Text"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASButton:IdentityIdcardPhoto_Cta_Continue_Button is displayed on the screen: Verifies that the widget:IdentityIdcardPhoto_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 19. Verify event:onPress using widget ASButton:IdentityIdcardPhoto_Cta_Continue_Button in screen IdentityIDCardPhoto should navigate to VerificationAddress: Verify that triggering event:onPress using widget: IdentityIdcardPhoto_Cta_Continue_Button in screen IdentityIDCardPhoto correctly navigates to the next screen VerificationAddress with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-IdentityIdcardPhoto_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "c6323571-23da-4d1c-b075-a967be93ca2e"
+    optional: true
+- waitForAnimationToEnd: {}
+# 20. Navigate back after verifying event:onPress from ASButton:IdentityIdcardPhoto_Cta_Continue_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:IdentityIdcardPhoto_Cta_Continue_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}
