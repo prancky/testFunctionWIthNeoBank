@@ -173,7 +173,14 @@ export const sharedStyles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'stretch',
   },
-  dataClasificationOpenAccountContainerContentColumn2: {
+  container2: {
+    height: '100%',
+    width: '100%',
+    backgroundColor: color.surface.default,
+    justifyContent: 'flex-start',
+    alignItems: 'stretch',
+  },
+  mainContainer: {
     flex: 1,
     flexShrink: 1,
     justifyContent: 'flex-start',

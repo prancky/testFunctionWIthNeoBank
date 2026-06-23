@@ -1,0 +1,38 @@
+appId: "${APP_ID}"
+name: "testScreenTestFlow"
+# Suite: testScreen
+# Consolidated test flow for testScreen screen
+# Contains 4 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASText:ASText-992297 is displayed on the screen: Verifies that the widget:ASText-992297 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "ASText-992297"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASText:ASText-992297 is displayed on the screen: Verifies that the label of widget:ASText-992297 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "ASText-992297"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "ASText-992297"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASButton:ASButton-144877 is displayed on the screen: Verifies that the widget:ASButton-144877 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ASButton-144877"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASButton:ASButton-144877 functionalities: Verifies that tapping button widget:ASButton-144877 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ASButton-144877"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ASButton-144877"

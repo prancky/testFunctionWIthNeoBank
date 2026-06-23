@@ -261,7 +261,7 @@ const VerificationEmlpoyement: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppImage
                       widgetId={'VerificationEmlpoyement_Image_GppGood_Image'}
-                      source={imageSources.image__7yspf}
+                      source={imageSources.image__i4dx}
                       style={sharedStyles.homeImageVisibilityImage}
                     />
                     <AppText

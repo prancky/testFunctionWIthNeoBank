@@ -123,7 +123,7 @@ const DataClasificationOpenAccount: React.FC<ScreenProps> = ({ route }) => {
             >
               <AppImage
                 widgetId={'DataClasificationOpenAccount_Image_Badge_Image'}
-                source={imageSources.image__48ee}
+                source={imageSources.image__2sui6}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }
@@ -133,9 +133,7 @@ const DataClasificationOpenAccount: React.FC<ScreenProps> = ({ route }) => {
                   'DataClasificationOpenAccount_Container_Content_Column_2'
                 }
                 spacing={4}
-                style={
-                  sharedStyles.dataClasificationOpenAccountContainerContentColumn2
-                }
+                style={sharedStyles.mainContainer}
               >
                 <AppText
                   widgetId={
@@ -190,7 +188,7 @@ const DataClasificationOpenAccount: React.FC<ScreenProps> = ({ route }) => {
                 widgetId={
                   'DataClasificationOpenAccount_Image_BusinessCenter_Image'
                 }
-                source={imageSources.image__9omk}
+                source={imageSources.image__o6tx}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }
@@ -200,9 +198,7 @@ const DataClasificationOpenAccount: React.FC<ScreenProps> = ({ route }) => {
                   'DataClasificationOpenAccount_Container_Content_Column_3'
                 }
                 spacing={4}
-                style={
-                  sharedStyles.dataClasificationOpenAccountContainerContentColumn2
-                }
+                style={sharedStyles.mainContainer}
               >
                 <AppText
                   widgetId={'DataClasificationOpenAccount_Label_AboutYou_Text'}
@@ -248,7 +244,7 @@ const DataClasificationOpenAccount: React.FC<ScreenProps> = ({ route }) => {
             >
               <AppImage
                 widgetId={'DataClasificationOpenAccount_Image_AtmCards_Image'}
-                source={imageSources.image__q64d}
+                source={imageSources.image__ycl1v}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }
@@ -258,9 +254,7 @@ const DataClasificationOpenAccount: React.FC<ScreenProps> = ({ route }) => {
                   'DataClasificationOpenAccount_Container_Content_Column_4'
                 }
                 spacing={4}
-                style={
-                  sharedStyles.dataClasificationOpenAccountContainerContentColumn2
-                }
+                style={sharedStyles.mainContainer}
               >
                 <AppText
                   widgetId={

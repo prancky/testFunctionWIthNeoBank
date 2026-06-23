@@ -284,7 +284,7 @@ const VerificationInitialTransfer: React.FC<ScreenProps> = ({ route }) => {
                         widgetId={
                           'VerificationInitialTransfer_Image_Verified_Image'
                         }
-                        source={imageSources.image__hxx30}
+                        source={imageSources.image__9m9uu}
                         style={
                           sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                         }
@@ -324,7 +324,7 @@ const VerificationInitialTransfer: React.FC<ScreenProps> = ({ route }) => {
                         widgetId={
                           'VerificationInitialTransfer_Image_Verified_Image_2'
                         }
-                        source={imageSources.image__dxuor}
+                        source={imageSources.image__0mbf0}
                         style={
                           sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                         }

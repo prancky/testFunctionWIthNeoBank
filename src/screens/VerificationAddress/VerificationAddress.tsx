@@ -253,7 +253,7 @@ const VerificationAddress: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppImage
                       widgetId={'VerificationAddress_Image_GppGood_Image'}
-                      source={imageSources.image__e88j}
+                      source={imageSources.image__v7hq}
                       style={sharedStyles.homeImageVisibilityImage}
                     />
                     <AppText

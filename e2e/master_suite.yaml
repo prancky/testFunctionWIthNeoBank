@@ -42,10 +42,6 @@ name: Master Test Suite
 # Consolidated flow file: identityIDCardPhoto.yaml
 # Contains 21 test case(s):
 
-# Suite: VerificationMoreInfo
-# Consolidated flow file: verificationMoreInfo.yaml
-# Contains 22 test case(s):
-
 # Suite: LoginScreen
 # Consolidated flow file: loginScreen.yaml
 # Contains 15 test case(s):
@@ -53,6 +49,10 @@ name: Master Test Suite
 # Suite: VerificationInitialTransfer
 # Consolidated flow file: verificationInitialTransfer.yaml
 # Contains 28 test case(s):
+
+# Suite: VerificationMoreInfo
+# Consolidated flow file: verificationMoreInfo.yaml
+# Contains 22 test case(s):
 
 # Suite: VerificationAddress
 # Consolidated flow file: verificationAddress.yaml
@@ -86,6 +86,10 @@ name: Master Test Suite
 # Consolidated flow file: home.yaml
 # Contains 49 test case(s):
 
+# Suite: testScreen
+# Consolidated flow file: testscreen.yaml
+# Contains 4 test case(s):
+
 ---
 - runFlow:
     file: eligibilityRequirement.yaml
@@ -108,11 +112,11 @@ name: Master Test Suite
 - runFlow:
     file: identityIDCardPhoto.yaml
 - runFlow:
-    file: verificationMoreInfo.yaml
-- runFlow:
     file: loginScreen.yaml
 - runFlow:
     file: verificationInitialTransfer.yaml
+- runFlow:
+    file: verificationMoreInfo.yaml
 - runFlow:
     file: verificationAddress.yaml
 - runFlow:
@@ -129,3 +133,5 @@ name: Master Test Suite
     file: verificationPurpose.yaml
 - runFlow:
     file: home.yaml
+- runFlow:
+    file: testscreen.yaml

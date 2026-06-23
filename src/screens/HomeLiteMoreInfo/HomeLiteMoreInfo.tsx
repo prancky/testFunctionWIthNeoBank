@@ -79,7 +79,7 @@ const HomeLiteMoreInfo: React.FC<ScreenProps> = ({ route }) => {
           </AppText>
           <AppImage
             widgetId={'HomeLiteMoreInfo_Image_Settings_Image'}
-            source={imageSources.image__b38}
+            source={imageSources.image__8gqg6}
             style={sharedStyles.homeImageVisibilityImage}
           />
         </AppRow>
@@ -101,7 +101,7 @@ const HomeLiteMoreInfo: React.FC<ScreenProps> = ({ route }) => {
         >
           <AppImage
             widgetId={'HomeLiteMoreInfo_Background_Image'}
-            source={imageSources.image__mgua}
+            source={imageSources.image__v5hwz}
             style={sharedStyles.homeLiteMoreInfoBackgroundImage}
           />
           <AppColumn

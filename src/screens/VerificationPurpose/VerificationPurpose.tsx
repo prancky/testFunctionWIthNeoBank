@@ -411,7 +411,7 @@ const VerificationPurpose: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppImage
                       widgetId={'VerificationPurpose_Image_AddCircle_Image'}
-                      source={imageSources.image__qhsq}
+                      source={imageSources.image__xno08}
                       style={sharedStyles.homeImageVisibilityImage}
                     />
                     <AppText
@@ -446,7 +446,7 @@ const VerificationPurpose: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppImage
                       widgetId={'VerificationPurpose_Image_GppGood_Image'}
-                      source={imageSources.image__i91lu}
+                      source={imageSources.image__yfs9}
                       style={sharedStyles.homeImageVisibilityImage}
                     />
                     <AppText

@@ -216,7 +216,7 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppColumn
                       widgetId={'Home_Container_AtmCard_Column'}
-                      backgroundImage={imageSources.image__bdvs}
+                      backgroundImage={imageSources.image__t7gc}
                       spacing={8}
                       style={styles.homeContainerAtmCardColumnStyle}
                     >
@@ -232,12 +232,12 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                         >
                           <AppImage
                             widgetId={'Home_Image_LogoAsimage_Image'}
-                            source={imageSources.image__zdvwb}
+                            source={imageSources.image__sidhg}
                             style={styles.homeImageLogoAsimageImageStyle}
                           />
                           <AppImage
                             widgetId={'Home_Image_Visibility_Image'}
-                            source={imageSources.image__g9z4}
+                            source={imageSources.image__7wlyp}
                             style={sharedStyles.homeImageVisibilityImage}
                           />
                         </AppRow>
@@ -316,14 +316,14 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                     </AppColumn>
                     <AppColumn
                       widgetId={'Home_Container_AtmCard_Column_2'}
-                      backgroundImage={imageSources.image__6tijp}
+                      backgroundImage={imageSources.image__qlo1g}
                       spacing={26}
                       style={styles.homeContainerAtmCardColumn2Style}
                     >
                       <AppImage
                         widgetId={'Home_Background_Lines_Image'}
                         resizeMode={'cover'}
-                        source={imageSources.image__c953g}
+                        source={imageSources.image__6lrli}
                         style={styles.homeBackgroundLinesImageStyle}
                       />
                       <AppColumn
@@ -352,7 +352,7 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                         >
                           <AppImage
                             widgetId={'Home_Image_RatingImageAsimage_Image'}
-                            source={imageSources.image__k8et}
+                            source={imageSources.image__64r}
                             style={styles.homeImageRatingImageAsimageImageStyle}
                           />
                           <AppRow
@@ -405,7 +405,7 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                         >
                           <AppImage
                             widgetId={'Home_Image'}
-                            source={imageSources.image__iw0k2}
+                            source={imageSources.image__tqqa9}
                             style={styles.homeImageStyle}
                           />
                         </AppRow>
@@ -465,7 +465,7 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'Home_Image_ActionIcons_Image'}
-                        source={imageSources.image__zq47b}
+                        source={imageSources.image__khs1}
                         style={styles.homeImageActionIconsImageStyle}
                       />
                       <AppText
@@ -490,7 +490,7 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'Home_Image_ActionIcons_Image_2'}
-                        source={imageSources.image__fqkc}
+                        source={imageSources.image__ep24a}
                         style={styles.homeImageActionIconsImage2Style}
                       />
                       <AppText
@@ -515,7 +515,7 @@ const Home: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'Home_Image_ActionIcons_Image_3'}
-                        source={imageSources.image__9ess}
+                        source={imageSources.image__r59zm}
                         style={styles.homeImageActionIconsImage3Style}
                       />
                       <AppText

@@ -252,7 +252,7 @@ const VerificationDetails: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppImage
                       widgetId={'VerificationDetails_Image_GppGood_Image'}
-                      source={imageSources.image__erhu}
+                      source={imageSources.image__shsa1}
                       style={sharedStyles.homeImageVisibilityImage}
                     />
                     <AppText

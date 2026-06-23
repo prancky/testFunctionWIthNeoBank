@@ -93,7 +93,7 @@ const EligibilityRequirement: React.FC<ScreenProps> = ({ route }) => {
             >
               <AppImage
                 widgetId={'EligibilityRequirement_Image_Location_Image'}
-                source={imageSources.image__41kn}
+                source={imageSources.image__9et9}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }
@@ -126,7 +126,7 @@ const EligibilityRequirement: React.FC<ScreenProps> = ({ route }) => {
             >
               <AppImage
                 widgetId={'EligibilityRequirement_Image_Person_Image'}
-                source={imageSources.image__6k9f1}
+                source={imageSources.image__x6zgs}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }
@@ -157,7 +157,7 @@ const EligibilityRequirement: React.FC<ScreenProps> = ({ route }) => {
             >
               <AppImage
                 widgetId={'EligibilityRequirement_Image_Home_Image'}
-                source={imageSources.image__2gm6}
+                source={imageSources.image__94kk}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }

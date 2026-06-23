@@ -1,3 +1,38 @@
+import SvgImage_sidhg from './svgs/SvgImage_sidhg';
+import SvgImage_7wlyp from './svgs/SvgImage_7wlyp';
+import SvgImage_6lrli from './svgs/SvgImage_6lrli';
+import SvgImage_tqqa9 from './svgs/SvgImage_tqqa9';
+import SvgImage_xno08 from './svgs/SvgImage_xno08';
+import SvgImage_yfs9 from './svgs/SvgImage_yfs9';
+import SvgImage_haea from './svgs/SvgImage_haea';
+import SvgImage_k29o from './svgs/SvgImage_k29o';
+import SvgImage_jm5p from './svgs/SvgImage_jm5p';
+import SvgImage_4wul from './svgs/SvgImage_4wul';
+import SvgImage_i4dx from './svgs/SvgImage_i4dx';
+import SvgImage_shsa1 from './svgs/SvgImage_shsa1';
+import SvgImage_zcdc2 from './svgs/SvgImage_zcdc2';
+import SvgImage_b720 from './svgs/SvgImage_b720';
+import SvgImage_v7hq from './svgs/SvgImage_v7hq';
+import SvgImage_4g7xl from './svgs/SvgImage_4g7xl';
+import SvgImage_9m9uu from './svgs/SvgImage_9m9uu';
+import SvgImage_0mbf0 from './svgs/SvgImage_0mbf0';
+import SvgImage_5cg3 from './svgs/SvgImage_5cg3';
+import SvgImage_aghec from './svgs/SvgImage_aghec';
+import SvgImage_rdeob from './svgs/SvgImage_rdeob';
+import SvgImage_2sui6 from './svgs/SvgImage_2sui6';
+import SvgImage_o6tx from './svgs/SvgImage_o6tx';
+import SvgImage_ycl1v from './svgs/SvgImage_ycl1v';
+import SvgImage_ms2ln from './svgs/SvgImage_ms2ln';
+import SvgImage_m60b from './svgs/SvgImage_m60b';
+import SvgImage_8gqg6 from './svgs/SvgImage_8gqg6';
+import SvgImage_v5hwz from './svgs/SvgImage_v5hwz';
+import SvgImage_yfe9t from './svgs/SvgImage_yfe9t';
+import SvgImage_xkied from './svgs/SvgImage_xkied';
+import SvgImage_sm3i from './svgs/SvgImage_sm3i';
+import SvgImage_0j0u from './svgs/SvgImage_0j0u';
+import SvgImage_9et9 from './svgs/SvgImage_9et9';
+import SvgImage_x6zgs from './svgs/SvgImage_x6zgs';
+import SvgImage_94kk from './svgs/SvgImage_94kk';
 import SvgImage_zdvwb from './svgs/SvgImage_zdvwb';
 import SvgImage_g9z4 from './svgs/SvgImage_g9z4';
 import SvgImage_c953g from './svgs/SvgImage_c953g';
@@ -97,6 +132,70 @@ export const imageSources = {
   image__zq47b: require('./images/image__zq47b.png'),
   image__fqkc: require('./images/image__fqkc.png'),
   image__9ess: require('./images/image__9ess.png'),
+
+  image__9et9: SvgImage_9et9,
+  image__x6zgs: SvgImage_x6zgs,
+  image__94kk: SvgImage_94kk,
+
+  image__sm3i: SvgImage_sm3i,
+  image__0j0u: SvgImage_0j0u,
+
+  image__yfe9t: SvgImage_yfe9t,
+  image__xkied: SvgImage_xkied,
+
+  image__8gqg6: SvgImage_8gqg6,
+  image__v5hwz: SvgImage_v5hwz,
+
+  image__m60b: SvgImage_m60b,
+  image__goegi: require('./images/image__goegi.png'),
+
+  image__ms2ln: SvgImage_ms2ln,
+  image__18t8: require('./images/image__18t8.png'),
+
+  image__bbpbm: require('./images/image__bbpbm.png'),
+  image__wj8al: require('./images/image__wj8al.png'),
+
+  image__2sui6: SvgImage_2sui6,
+  image__o6tx: SvgImage_o6tx,
+  image__ycl1v: SvgImage_ycl1v,
+
+  image__aghec: SvgImage_aghec,
+  image__rdeob: SvgImage_rdeob,
+
+  image__5cg3: SvgImage_5cg3,
+
+  image__9m9uu: SvgImage_9m9uu,
+  image__0mbf0: SvgImage_0mbf0,
+
+  image__4g7xl: SvgImage_4g7xl,
+
+  image__v7hq: SvgImage_v7hq,
+
+  image__zcdc2: SvgImage_zcdc2,
+  image__b720: SvgImage_b720,
+
+  image__shsa1: SvgImage_shsa1,
+
+  image__i4dx: SvgImage_i4dx,
+
+  image__haea: SvgImage_haea,
+  image__k29o: SvgImage_k29o,
+  image__jm5p: SvgImage_jm5p,
+  image__4wul: SvgImage_4wul,
+
+  image__xno08: SvgImage_xno08,
+  image__yfs9: SvgImage_yfs9,
+
+  image__t7gc: require('./images/image__t7gc.png'),
+  image__sidhg: SvgImage_sidhg,
+  image__7wlyp: SvgImage_7wlyp,
+  image__qlo1g: require('./images/image__qlo1g.png'),
+  image__6lrli: SvgImage_6lrli,
+  image__64r: require('./images/image__64r.png'),
+  image__tqqa9: SvgImage_tqqa9,
+  image__khs1: require('./images/image__khs1.png'),
+  image__ep24a: require('./images/image__ep24a.png'),
+  image__r59zm: require('./images/image__r59zm.png'),
 
   // Add more images as needed
 };

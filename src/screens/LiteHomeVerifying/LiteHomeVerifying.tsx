@@ -77,7 +77,7 @@ const LiteHomeVerifying: React.FC<ScreenProps> = ({ route }) => {
           </AppText>
           <AppImage
             widgetId={'LiteHomeVerifying_Image_Settings_Image'}
-            source={imageSources.image__jdy6}
+            source={imageSources.image__yfe9t}
             style={sharedStyles.homeImageVisibilityImage}
           />
         </AppRow>
@@ -94,7 +94,7 @@ const LiteHomeVerifying: React.FC<ScreenProps> = ({ route }) => {
         >
           <AppImage
             widgetId={'LiteHomeVerifying_Background_Image'}
-            source={imageSources.image__wzld}
+            source={imageSources.image__xkied}
             style={sharedStyles.homeLiteMoreInfoBackgroundImage}
           />
           <AppColumn

@@ -54,7 +54,7 @@ const IntroductionFirstScreen: React.FC<ScreenProps> = ({ route }) => {
       >
         <AppImage
           widgetId={'IntroductionFirstScreen_Image_Settings_Image'}
-          source={imageSources.image__c2z5g}
+          source={imageSources.image__bbpbm}
           style={sharedStyles.homeImageVisibilityImage}
         />
       </AppAppBar>
@@ -115,7 +115,7 @@ const IntroductionFirstScreen: React.FC<ScreenProps> = ({ route }) => {
           </AppColumn>
           <AppImage
             widgetId={'IntroductionFirstScreen_Background_ImageAsimage_Image'}
-            source={imageSources.image__8n803}
+            source={imageSources.image__wj8al}
             style={sharedStyles.homeLiteBackgroundImageAsimageImage}
           />
           <AppRow

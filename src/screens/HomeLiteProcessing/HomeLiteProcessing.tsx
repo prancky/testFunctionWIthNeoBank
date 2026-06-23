@@ -77,7 +77,7 @@ const HomeLiteProcessing: React.FC<ScreenProps> = ({ route }) => {
           </AppText>
           <AppImage
             widgetId={'HomeLiteProcessing_Image_Settings_Image'}
-            source={imageSources.image__j1iv}
+            source={imageSources.image__sm3i}
             style={sharedStyles.homeImageVisibilityImage}
           />
         </AppRow>
@@ -94,7 +94,7 @@ const HomeLiteProcessing: React.FC<ScreenProps> = ({ route }) => {
         >
           <AppImage
             widgetId={'HomeLiteProcessing_Background_Image'}
-            source={imageSources.image__4rh0}
+            source={imageSources.image__0j0u}
             style={sharedStyles.homeLiteMoreInfoBackgroundImage}
           />
           <AppColumn

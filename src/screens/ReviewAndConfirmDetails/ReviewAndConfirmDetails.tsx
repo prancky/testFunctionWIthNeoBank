@@ -241,7 +241,7 @@ const ReviewAndConfirmDetails: React.FC<ScreenProps> = ({ route }) => {
                       </AppText>
                       <AppImage
                         widgetId={'ReviewAndConfirmDetails_Image_Minus_Image'}
-                        source={imageSources.image__czgo}
+                        source={imageSources.image__haea}
                         style={sharedStyles.homeImageVisibilityImage}
                       />
                     </AppRow>
@@ -414,7 +414,7 @@ const ReviewAndConfirmDetails: React.FC<ScreenProps> = ({ route }) => {
                       </AppText>
                       <AppImage
                         widgetId={'ReviewAndConfirmDetails_Image_Minus_Image_2'}
-                        source={imageSources.image__8w1e}
+                        source={imageSources.image__k29o}
                         style={sharedStyles.homeImageVisibilityImage}
                       />
                     </AppRow>
@@ -533,7 +533,7 @@ const ReviewAndConfirmDetails: React.FC<ScreenProps> = ({ route }) => {
                       </AppText>
                       <AppImage
                         widgetId={'ReviewAndConfirmDetails_Image_Minus_Image_3'}
-                        source={imageSources.image__wl6ij}
+                        source={imageSources.image__jm5p}
                         style={sharedStyles.homeImageVisibilityImage}
                       />
                     </AppRow>
@@ -587,7 +587,7 @@ const ReviewAndConfirmDetails: React.FC<ScreenProps> = ({ route }) => {
                       </AppText>
                       <AppImage
                         widgetId={'ReviewAndConfirmDetails_Image_Minus_Image_4'}
-                        source={imageSources.image__y44s}
+                        source={imageSources.image__4wul}
                         style={sharedStyles.homeImageVisibilityImage}
                       />
                     </AppRow>

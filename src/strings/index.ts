@@ -243,42 +243,6 @@ export const STRINGS = {
       label: 'Continue',
     },
   },
-  VerificationMoreInfo: {
-    VerificationMoreInfo_Label_YourAccount_Text: {
-      label: 'Your account',
-      accessibilityLabel: 'Your account',
-    },
-    VerificationMoreInfo_Label_WeNeedFewMoreInformation_Text: {
-      accessibilityLabel: 'We need few more information',
-      label: 'We need few more information',
-    },
-    VerificationMoreInfo_Label_WeNeedThisInformationToPr_Text: {
-      label: 'We need this information to process your application.',
-      accessibilityLabel:
-        'We need this information to process your application.',
-    },
-    VerificationMoreInfo_Container_DropdownFieldAsdropD_DropDown: {
-      placeholder: 'Source of funds',
-      searchPlaceholder: 'Search...',
-    },
-    VerificationMoreInfo_Input_OtherSourceOfFunds_Input: {
-      placeholder: 'Other source of funds',
-    },
-    VerificationMoreInfo_Container_DropdownFieldAsdropD_DropDo_2: {
-      placeholder: 'Source of wealth',
-      searchPlaceholder: 'Search...',
-    },
-    VerificationMoreInfo_Label_YourDataIsProtectedAccord_Text: {
-      label:
-        'Your data is protected according to the Personal Data Protection Act.',
-      accessibilityLabel:
-        'Your data is protected according to the Personal Data Protection Act.',
-    },
-    VerificationMoreInfo_Cta_Continue_Button: {
-      accessibilityLabel: 'Continue',
-      label: 'Continue',
-    },
-  },
   LoginScreen: {
     LoginScreen_Label_WelcomeBack_Text: {
       accessibilityLabel: 'Welcome Back!',
@@ -347,6 +311,42 @@ export const STRINGS = {
     VerificationInitialTransfer_Cta_Done_Button: {
       accessibilityLabel: 'Done',
       label: 'Done',
+    },
+  },
+  VerificationMoreInfo: {
+    VerificationMoreInfo_Label_YourAccount_Text: {
+      label: 'Your account',
+      accessibilityLabel: 'Your account',
+    },
+    VerificationMoreInfo_Label_WeNeedFewMoreInformation_Text: {
+      accessibilityLabel: 'We need few more information',
+      label: 'We need few more information',
+    },
+    VerificationMoreInfo_Label_WeNeedThisInformationToPr_Text: {
+      label: 'We need this information to process your application.',
+      accessibilityLabel:
+        'We need this information to process your application.',
+    },
+    VerificationMoreInfo_Container_DropdownFieldAsdropD_DropDown: {
+      placeholder: 'Source of funds',
+      searchPlaceholder: 'Search...',
+    },
+    VerificationMoreInfo_Input_OtherSourceOfFunds_Input: {
+      placeholder: 'Other source of funds',
+    },
+    VerificationMoreInfo_Container_DropdownFieldAsdropD_DropDo_2: {
+      placeholder: 'Source of wealth',
+      searchPlaceholder: 'Search...',
+    },
+    VerificationMoreInfo_Label_YourDataIsProtectedAccord_Text: {
+      label:
+        'Your data is protected according to the Personal Data Protection Act.',
+      accessibilityLabel:
+        'Your data is protected according to the Personal Data Protection Act.',
+    },
+    VerificationMoreInfo_Cta_Continue_Button: {
+      accessibilityLabel: 'Continue',
+      label: 'Continue',
     },
   },
   VerificationAddress: {
@@ -790,6 +790,14 @@ export const STRINGS = {
         'Instant personal loans anytime, anywhere – no collateral required.',
       label:
         'Instant personal loans anytime, anywhere – no collateral required.',
+    },
+  },
+  testScreen: {
+    ASText_992297: {
+      label: 'Hello',
+    },
+    ASButton_144877: {
+      label: 'sumsub',
     },
   },
 } as const;

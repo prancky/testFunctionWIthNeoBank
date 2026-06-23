@@ -78,7 +78,7 @@ const VerificationVerified: React.FC<ScreenProps> = ({ route }) => {
           </AppText>
           <AppImage
             widgetId={'VerificationVerified_Image_Settings_Image'}
-            source={imageSources.image__xale9}
+            source={imageSources.image__m60b}
             style={sharedStyles.homeImageVisibilityImage}
           />
         </AppRow>
@@ -95,7 +95,7 @@ const VerificationVerified: React.FC<ScreenProps> = ({ route }) => {
         >
           <AppImage
             widgetId={'VerificationVerified_Background_ImageAsimage_Image'}
-            source={imageSources.image__y4mj8}
+            source={imageSources.image__goegi}
             style={styles.verificationVerifiedBackgroundImageAsimageImageStyle}
           />
           <AppColumn

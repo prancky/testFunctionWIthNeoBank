@@ -149,7 +149,7 @@ const VerificationSelfie: React.FC<ScreenProps> = ({ route }) => {
             >
               <AppImage
                 widgetId={'VerificationSelfie_Image_Lightbulb_Image'}
-                source={imageSources.image__hzd1}
+                source={imageSources.image__zcdc2}
                 style={
                   sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
                 }
@@ -157,9 +157,7 @@ const VerificationSelfie: React.FC<ScreenProps> = ({ route }) => {
               <AppColumn
                 widgetId={'VerificationSelfie_Container_Content_Column_2'}
                 spacing={4}
-                style={
-                  sharedStyles.dataClasificationOpenAccountContainerContentColumn2
-                }
+                style={sharedStyles.mainContainer}
               >
                 <AppText
                   widgetId={'VerificationSelfie_Label_PostureAndLights_Text'}
@@ -228,9 +226,7 @@ const VerificationSelfie: React.FC<ScreenProps> = ({ route }) => {
               <AppColumn
                 widgetId={'VerificationSelfie_Container_Content_Column_3'}
                 spacing={4}
-                style={
-                  sharedStyles.dataClasificationOpenAccountContainerContentColumn2
-                }
+                style={sharedStyles.mainContainer}
               >
                 <AppText
                   widgetId={'VerificationSelfie_Label_ClearFace_Text'}
@@ -287,7 +283,7 @@ const VerificationSelfie: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'VerificationSelfie_Image_GppGood_Image'}
-              source={imageSources.image__v531k}
+              source={imageSources.image__b720}
               style={sharedStyles.homeImageVisibilityImage}
             />
             <AppText

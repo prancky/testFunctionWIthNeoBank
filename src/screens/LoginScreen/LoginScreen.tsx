@@ -87,7 +87,7 @@ const LoginScreen: React.FC<ScreenProps> = ({ route }) => {
                 >
                   <AppImage
                     widgetId={'LoginScreen_Image_LogoAsimage_Image'}
-                    source={imageSources.image__uwte}
+                    source={imageSources.image__5cg3}
                     style={styles.loginScreenImageLogoAsimageImageStyle}
                   />
                   <AppColumn

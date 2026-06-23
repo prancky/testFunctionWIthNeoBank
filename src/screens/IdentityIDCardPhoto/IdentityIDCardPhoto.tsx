@@ -144,7 +144,7 @@ const IdentityIDCardPhoto: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'IdentityIdcardPhoto_Image_Badge_Image'}
-              source={imageSources.image__iagmi}
+              source={imageSources.image__aghec}
               style={
                 sharedStyles.dataClasificationOpenAccountImageAtmCardsImage
               }
@@ -152,9 +152,7 @@ const IdentityIDCardPhoto: React.FC<ScreenProps> = ({ route }) => {
             <AppColumn
               widgetId={'IdentityIdcardPhoto_Container_Content_Column_2'}
               spacing={4}
-              style={
-                sharedStyles.dataClasificationOpenAccountContainerContentColumn2
-              }
+              style={sharedStyles.mainContainer}
             >
               <AppText
                 widgetId={
@@ -212,7 +210,7 @@ const IdentityIDCardPhoto: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'IdentityIdcardPhoto_Image_GppGood_Image'}
-              source={imageSources.image__1ho0}
+              source={imageSources.image__rdeob}
               style={sharedStyles.homeImageVisibilityImage}
             />
             <AppText

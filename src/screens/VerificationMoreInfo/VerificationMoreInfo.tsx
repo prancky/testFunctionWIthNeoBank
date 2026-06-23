@@ -230,7 +230,7 @@ const VerificationMoreInfo: React.FC<ScreenProps> = ({ route }) => {
                   >
                     <AppImage
                       widgetId={'VerificationMoreInfo_Image_GppGood_Image'}
-                      source={imageSources.image__yuy6r}
+                      source={imageSources.image__4g7xl}
                       style={sharedStyles.homeImageVisibilityImage}
                     />
                     <AppText

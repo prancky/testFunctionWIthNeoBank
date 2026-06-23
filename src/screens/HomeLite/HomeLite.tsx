@@ -73,7 +73,7 @@ const HomeLite: React.FC<ScreenProps> = ({ route }) => {
           </AppText>
           <AppImage
             widgetId={'HomeLite_Image_Settings_Image'}
-            source={imageSources.image__vu9v}
+            source={imageSources.image__ms2ln}
             style={sharedStyles.homeImageVisibilityImage}
           />
         </AppRow>
@@ -90,7 +90,7 @@ const HomeLite: React.FC<ScreenProps> = ({ route }) => {
         >
           <AppImage
             widgetId={'HomeLite_Background_ImageAsimage_Image'}
-            source={imageSources.image__9xza2}
+            source={imageSources.image__18t8}
             style={sharedStyles.homeLiteBackgroundImageAsimageImage}
           />
           <AppColumn
